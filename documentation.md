@@ -1,0 +1,66 @@
+Build and Deploy a React Dashboard With Hostinger - Code Commerce YT 2023
+
+-instaliramo taildwindCSS paket u terminalu
+-manje izmjene u postojecim fajlovima
+-brisanje nepotrebnih fajlova
+-kreiramo folder components
+-u folderu components kreiramo komponentu Sidebar.jsx
+-u App.js fajl importujemo komponentu Sidebar.jsx
+-u App.js fajlu elementu main dodajemo tailwindCSS klase
+-u komponenti Sidebar.jsx div elementu dodajemo tailwindCSS klase
+-u terminalu instaliramo paket hero icons
+-kreiramo div element 
+-div elementu dodajemo tailwindCSS klase
+-importujemo komponentu HomeIcon
+-kreiramo jos jedan div element u kojem ce se nalaziti ikonice
+-importujemo ikonice
+-kreiramo div u kojem ce se nalaziti dvije ikonice na dnu
+-u components folderu kreiramo komponentu Navbar.jsx
+-u App.js fajl importujemo komponentu Navbar.jsx
+-div element u kojem se nalazi komponenta Navbar dodajemo tailwindCSS klase
+-u terminalu instaliramo tremor paket
+-u komponentu Navbar.jsx importujemo komponentu TextInput
+-komponenti TextInput dodajemo atribute
+-roditelj div elementu dodajemo id
+-roditelj div elementu dodajemo tailwindCSS klase
+-u App.js fajlu kreiramo div grid element
+-div grid elementu dodajemo taildwindCSS grid klase
+-u tom div gred elementu dodajemo dva div elementa za lijevu i desnu stranu
+-kreiramo komponentu LeftColumn.jsx i RightColumn.jsx 
+-u App.js fajl importujemo ove dvije komponente
+-u komponenti LeftColumn.jsx roditelj elementu dodajemo taildindCSS klase
+-kreiramo div element u kojem ce se nalaziti tri tremor komponente
+-kreiramo komponentu CardItem.jsx
+-u komponentu CardItem.jsx importujemo tremor komponentu Card i ostale tremor komponente
+-tremor komponentama dodajemo atribute
+-u komponentu LeftColumn.jsx importujemo komponentu CardItem.jsx
+-importujemo tremor komponente AreaChart, Card, Title
+-kreiramo niz chartdata
+-kreiramo funkciju dataFormatter()
+-kreiramo posebno komponentu AreaChartComponent.jsx za Area Chart komponente
+-kreiramo komponentu TableComponent.jsx
+-u komponentu TableComponent.jsx importujemo tremor komponente
+-importujemo Hero ikonicu
+-kreiramo niz data
+-u komponentu LeftColumn importujemo komponentu TableComponent.jsx
+-kreiramo komponentu SalesItem.jsx 
+-u komponentu RightColumn.jsx importujemo komponentu SalesItem.jsx
+-u komponenti RightColumn.jsx roditelj elementu dodajemo tailwindCSS klase
+-u komponeti SalesItem.jsx importujemo tremor komponente
+-importujemo Hero ikonice
+-kreiramo niz stocks
+-kreiramo funkciju dataFormatter()
+-kreiramo const [selectedIndex, setSelectedIndex] = useState(0)
+-u return izjavu dodajemo komponentu Card
+-u return izjavu dodajemo ostale tremor komponente
+-dodajemo javascript kod u {}
+-dodajemo metodu stacks.map()
+-kreiramo komponentu WebAnalytics.jsx
+-importujemo tremor komponente
+-kreiramo niz data
+-u komponentu RightColumn.jsx importujemo komponentu WebAnalytics.jsx
+-kreiramo komponentu ScoreList.jsx
+-u komponentu ScoreList.jsx importujemo tremor komponente
+-kreiramo niz cities
+-dodajemo metodu cities.map()
+-u komponentu RightColumn.jsx importujemo komponentu ScoreList.jsx
