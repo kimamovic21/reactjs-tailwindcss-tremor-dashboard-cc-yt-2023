@@ -64,3 +64,11 @@ Build and Deploy a React Dashboard With Hostinger - Code Commerce YT 2023
 -kreiramo niz cities
 -dodajemo metodu cities.map()
 -u komponentu RightColumn.jsx importujemo komponentu ScoreList.jsx
+
+
+Github pages
+-npm install gh-pages --save
+-u package.json dodajemo homepage
+-u scripts dodajemo predeploy i deploy
+-npm run deploy
+-
